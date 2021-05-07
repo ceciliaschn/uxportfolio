@@ -131,3 +131,42 @@ nav {
     width: 100%;
   }
 
+@media (max-width: 688px) {
+  h1 {
+    font-size: 30px;
+  }
+
+.overlay {
+    width: 100vw;
+}
+
+h3{
+    font-size: 16px;
+    text-align: center;
+}
+
+a {
+  font-size: 18px;
+}
+
+#cecilia-schneider {
+    font-size: 18px;
+  }
+
+.ghost-button{
+    font-size: 16px;
+    margin-top: 15%;
+}
+
+  .overlay-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  ul {
+    width: 100%
+  }
+
+}
