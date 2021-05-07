@@ -1,0 +1,195 @@
+header {
+    padding: 30px 
+  } 
+
+ul {
+    width: 42%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+  #cecilia-schneider {
+    font-family: 'Sora', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FEFFFF;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Sora', sans-serif;
+  }
+
+  li a:hover {
+    color: #FFF500;
+  }
+
+  #about {
+    color: #FFF500;
+    font-weight: 600;
+  }
+
+  header {
+    background-color: #29303C;
+  }
+
+
+  h2 {
+    font-family: 'Sora', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 5%;
+  }
+
+  img{
+    width: 415px;
+    height: 420px;
+    margin-left: 72px;
+    margin-right: 133px;
+  }
+
+  p {
+      font-size: 22px;
+      font-family: 'Playfair Display', serif;
+      line-height: 29px;
+      text-align: justify;
+      margin-top: 29px;
+  }
+
+  #no-margin-p {
+    margin-top: 0;
+  }
+
+  .profile {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .about-text {
+      margin-bottom: 40px;
+      margin-right: 72px;
+  }
+
+  span {
+      font-weight: bolder;
+  }
+
+  .button {
+    color: #FEFFFF;
+    background-color: #29303C;
+    padding: 13px 89px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 4px;
+    font-family: 'Sora', sans-serif;
+    margin-left: 620px;
+    filter: drop-shadow(6px 6px 6px rgba(41, 48, 60, 0.1));
+  }
+
+#view-my-cv:hover {
+    background-color: #767B82;
+}
+
+#figma {
+    width: 198px;
+    height: 110px;
+}
+
+#sketch {
+    width: 197px;
+    height: 45px;
+}
+
+#invision {
+    width: 185px;
+    height: 62px;
+}
+
+#xd {
+    width: 87px;
+    height: 85px;
+}
+
+#trello {
+    width: 200px;
+    height: 61px;
+}
+
+#asana {
+    width: 200px;
+    height: 100px;
+}
+
+#gsuite {
+    width: 209px;
+    height: 52px;
+}
+
+#ps {
+    width: 87px;
+    height: 85px;
+}
+
+.logos-row-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logos-row-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+
+
+
+  footer {
+    background-color: #29303C;
+    color: #FEFFFF;
+    text-decoration: none;  
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Sora', sans-serif;
+    font-size: 24;
+    padding: 30px 16px;
+    width:100%;
+    text-decoration: none;
+    margin-top: 60px;
+      }
+
+
+footer a {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: inherit;
+}
+
+.logos-row-1 img,
+.logos-row-2 img{
+
+    width: 25%
+}

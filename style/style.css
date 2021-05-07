@@ -1,0 +1,133 @@
+body {
+    background-color: #29303C;
+}
+
+header {
+  padding: 30px 
+} 
+
+h1{
+    font-size: 80px;
+    font-family: 'Sora', sans-serif;
+    color: #FFF500;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #FEFFFF;
+    margin-left: 5%;
+}
+
+.ghost-button{
+    color: #FFF500;
+    padding: 13px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 4px;
+    border-color: #FFF500;
+    border: 2px;
+    border: 2px solid #FFF500;
+    white-space: nowrap;
+    display: inline-block;
+    font-family: 'Sora', sans-serif;
+    margin-left: 5%;
+    margin-top: 54px;
+}
+
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #29303C;
+  color: #FFF500;
+  border-color: #29303C;
+}
+
+  ul {
+    width: 42%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap; 
+}
+
+
+  #cecilia-schneider {
+    /* margin-left: 5%; */
+    font-family: 'Sora', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FEFFFF;
+  }
+
+  #home {
+    color: #FFF500;
+    font-weight: 600;
+  }
+  
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Sora', sans-serif;
+  }
+
+  li a:hover {
+    color: #FFF500;
+  }
+
+
+  .container {
+    height: 100vh;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -2;
+  }
+
+  .background-image {
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url("../images/home/home-image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+  .overlay {
+    /* Change the dimensions of the overlay */
+    height: 100vh;
+    width: 66vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(41,48,60,60%);
+    z-index: 1;
+  }
+
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
